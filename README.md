@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
     <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank">
         <img src="http://moxfive.github.io/resources/yelee-mockup.jpg">
@@ -222,3 +223,7 @@ Baidu: [hexo-generator-baidu-sitemap](https://github.com/coneycode/hexo-generato
 The Path is `/yelee/source/apple-touch-icon.png`
 
 [Recommended size: 180*180](https://realfavicongenerator.net/blog/apple-touch-icon-the-good-the-bad-the-ugly/)
+=======
+# hexo-theme-lfp
+a hexo theme from yelee
+>>>>>>> d33607e2e82c77b6912ab257f3484262fd7f4aa4

@@ -21,6 +21,9 @@
 
 <link rel="apple-touch-icon" href= "<%- theme.root_url %>/apple-touch-icon.png">
 
+<link rel="stylesheet" href="<%-config.root%>mermaid/mermaid.css">
+<script src="<%-config.root%>mermaid/mermaid.min.js"></script>
+
 <% if (theme.rss){ %>
     <link rel="alternate" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
 <% } %>
@@ -103,6 +106,7 @@ if ( is_archive() ) {
 
 <% if (theme.baidu_tongji){ %>
     <script>
+        mermaid.initialize({startOnLoad:true});
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
